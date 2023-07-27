@@ -1,0 +1,23 @@
+/* The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+:root {
+  --brightorange: hsl(31, 77%, 52%);
+  --darkcyan: hsl(184, 100%, 22%);
+  --verydarkcyan: hsl(179, 100%, 13%);
+  --para: hsla(0, 0%, 100%, 0.75);
+  --bg: hsl(0, 0%, 95%);
+  --fontSize: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: var(--fontSize);
+}
+body {
+  background-color: var(--bg);
+}
